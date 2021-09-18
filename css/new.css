@@ -1,0 +1,267 @@
+*{
+
+    margin:0px;
+    padding:0px;
+    line-height:24px
+    }
+    body{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+   background:#fff
+   
+    }
+    h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    a,a:hover{
+    
+    text-decoration: none;
+    
+  }
+
+
+/* global */
+.col-6{width:50%}
+.col-12{width:100%}
+.col-4{width:25%;float:left}
+
+
+
+
+
+/* header css code start */
+  .container{margin:0px auto;
+    position:relative;
+    left:2.8%;
+    top:5%;
+    padding:5px}
+
+  .header .container{width:1800px;
+    position: absolute;}
+
+    .header .col-6 .left-div {width:99%;
+    height:800px;
+    background-color: #015761;
+    margin-left:10px}
+
+    .header .col-6 h2{color:#E5D350;
+    font-size: 30px;
+    font-weight: 450;
+    padding: 15px;}
+
+    .header .col-6 .greeting span{margin-left:18px;
+    color:white}
+
+    .header  .col-6  li{list-style: none;
+    display:inline-block;
+    padding:15px}
+
+    .header .col-6  li a{color:white;
+    margin:0px 15px 0px 0px;transition:0.5s}
+    .header .col-6  li a:hover{color:rgb(0, 193, 252)}
+    .header .col-6 h3{color:#E5D350;
+    font-size: 30px;
+    font-weight: 450;
+    padding: 15px;}
+    .header .col-6 .greeting  h1{color:#FFFFFF;
+    font-size:75px
+    ;padding: 25px;
+    font-weight: bold;
+    padding:15px;
+    width:100%;}
+    .header .left-div .gretting span{font-size: 13px;
+    width:100%;
+    padding:15px;
+    margin:0px 0px 0px 7px}
+
+    .header .col-6{float:left;
+    width: 50%;
+    height:100%;}
+    .header .col-6 img{width:100%;
+    height:765px}
+    .header .container .greeting{position:absolute;
+    left: 15%;top:30%}
+
+  /* header css code end*/
+
+
+/* about section css code  start*/
+  .about-section{position:relative;
+    width:98%;
+    margin:0px auto;
+    text-align: center;
+  right:0.1%
+  }
+  .about-section .container{
+
+    width:1741px;
+    height:400px;
+
+    position:absolute;
+
+      background-color:#F1F0F0;
+      padding:25px;margin-top:45.8%;
+
+   
+  }
+  .about-section .col-12{
+    
+    width:100%;
+    float:left;} 
+
+
+   
+    .about-section .col-12  h1{text-align:center;
+     color:#015761;
+     font-size:25px}
+     .about-section .col-12  p{width:50%;
+     text-align:center;
+     margin-left:445px;
+     font-size:18px}
+
+.about-dic{width:100%}
+.about-dic .btn{color:#015761;
+  background-color:#F7DC4F ;
+  outline-style:none;
+  border:none;
+  padding:10px;
+  width:10%;text-align: center;
+  margin:50px 0px 0px 0px}
+
+
+
+
+/* about section css code end */
+
+
+
+  
+/* showreel section css code start */
+
+.showreel-section {
+  position:relative;
+  padding:15px;}
+
+.showreel-section .container{
+  position:absolute;
+  margin-top: 73% ;
+}
+.showreel-section h1{position:absolute;
+  color:#015761;
+  font-size: 35px;
+  font-weight: 600;
+  margin-left:58%;}
+
+.showreel-section video{
+  margin:50px 0px 0px 12px;
+  width:124.8%;margin-top:7.5rem;
+height:800px
+
+
+}
+
+
+
+  
+/* showreel section css code end */ 
+
+/* photo section css code start */
+.photo{position:relative;}
+
+.photo .container{
+  position:absolute;
+  margin-top: 128% ;
+  left:6%;
+}
+
+
+.photo h1{position:absolute
+  ;
+  color:#015761;
+  font-size: 35px;
+  font-weight: 600;
+  left:44%;
+  bottom:110%;}
+.photo  img{
+
+  width:550px;
+  height:300px;
+  margin:20px 0px 0px 20px
+}
+
+
+
+/* photo section css code end */
+
+
+
+/* contact section css start  */
+.contact-section{
+  position:relative
+}
+.contact-section .container{
+  position: absolute;
+  margin-top:170%;
+  width:1800px;
+  margin-left:10.5px
+}
+.contact-section .right-div{
+  width:99%;
+  height:800px;background-color: #015761;
+  
+}
+
+.contact-section .container{
+  padding:5px
+}
+
+.contact-section p{
+  color:white;padding:10px;
+  font-size:17px
+}
+.contact-section  .col-6{
+  width:50%;float:left
+}
+
+.contact-section .footer{
+  position:absolute;
+  top:30%;
+  left:65%
+}
+.contact-section  .icons{position:absolute;top:85%;left:65.9%}
+.contact-section  .icons li{list-style:none;display:inline-block;padding:10px}
+.contact-section  .icons li a{color:white}
+.foot{
+  position: absolute;
+}
+.contact-section .container img{width:100%;height:800px}
+.contact-section .right-div  h1{position:absolute;top:15%;left:64.5%;color:#F7DC4F;font-size:60px}
+.right-div .footer h2{color:#F7DC4F}
+
+
+
+
+
+
+
+
+
+
+
+/* contact section css code end */
+
+
+.social-icons{position:relative}
+.social-icons .icon-lists{position:fixed;left:96.6%;margin-top:15%;z-index:5}
+
+.social-icons .icon-lists li{list-style:none;background-color:#F7DC4F ;padding:5px}
+
+.social-icons .icon-lists li .fa{color:black}
+.social-icons .icon-lists li .fa:hover{color:rgb(240, 15, 210)}
+footer .cotainer{position:relative}
+
+footer .col-12{position: absolute;margin-top:213%;}
+
+footer p{text-align: center;}
